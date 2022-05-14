@@ -1,0 +1,91 @@
+h1{
+    color: rgb(10, 154, 216);
+    text-align: center;
+  }
+  form {
+    margin: 1rem auto;
+    text-align: center;
+  }
+  .input {
+    width: 15%;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    background-color: rgb(225, 227, 225);
+  }
+  .btn {
+    padding: 0.5rem;
+    background-color: #00d1b2;
+    color: white;
+    border: none;
+    border: 1px solid rgb(6, 171, 99);
+    
+  
+  }
+  .month-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    background-color: #eff5fb;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+  }
+  ul {
+    list-style: none;
+  }
+  .date {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid gray;
+    border-radius: 6px;
+  }
+  .delete-activity {
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 800;
+  }
+  .all-activities-holder {
+    gap: 2rem;
+  }
+  .activity {
+    padding: 1rem;
+    border: 2px solid #eff5fb;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .month {
+    background-color: tomato;
+    padding: 00.5rem;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .name{
+    font-size: 1.2rem;
+    color: navy;
+    font-weight: 800;
+  }
+  .active {
+    background-color: #00d1b2;
+  
+
+  }
